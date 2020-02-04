@@ -1,0 +1,25 @@
+{
+  "name": "fizzbuzz-nodejs-api",
+  "version": "0.0.1",
+  "description": "Example project for writing test cases in NodeJS. Uses Mocha as the main testing engine, and PhantomJS for browser testing.",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "jade": "1.11.0",
+    "mongoose": "5.8.10"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "7.0.1",
+    "phantom": "6.3.0",
+    "request": "2.88.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD"
+}
